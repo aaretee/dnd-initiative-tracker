@@ -135,7 +135,8 @@ ul.character-items {
       ul.character-items li .name-boxes input {
         margin-right: 10px; }
     ul.character-items li .hp {
-      margin-top: 25px; }
+      margin-top: 25px;
+      display: inline-flex; }
       ul.character-items li .hp input {
         font-size: 24px;
         width: 60px;
@@ -144,7 +145,6 @@ ul.character-items {
         border-radius: 0;
         text-align: center;
         padding: 4px 0;
-        display: inline-flex;
         background: #fff;
         border: 1px solid #d9dadc; }
         ul.character-items li .hp input:focus {
@@ -166,7 +166,8 @@ ul.character-items {
           border-radius: 0 6px 6px 0;
           border-left-width: 0; }
     ul.character-items li .sp {
-      margin-top: 25px; }
+      margin-top: 25px;
+      display: inline-flex; }
       ul.character-items li .sp input {
         font-size: 24px;
         width: 60px;
@@ -175,7 +176,6 @@ ul.character-items {
         border-radius: 0;
         text-align: center;
         padding: 4px 0;
-        display: inline-flex;
         background: #fff;
         border: 1px solid #d9dadc; }
         ul.character-items li .sp input:focus {
