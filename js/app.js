@@ -13,6 +13,7 @@ app.controller('myCtrl', function($scope) {
       "playerName" : "",
       "initiative" : "",
       "hp" : "",
+      "sp" : "",
       "notes" : ""
     }
   ];
@@ -25,6 +26,7 @@ app.controller('myCtrl', function($scope) {
         "playerName" : "",
         "initiative" : "",
         "hp" : "",
+        "sp" : "",
         "notes": ""
       }
     );
@@ -49,6 +51,13 @@ app.controller('myCtrl', function($scope) {
   $scope.lessHp = function(char) {
     char.hp --;
   };
+  
+  $scope.moreSp = function(char) {
+    char.sp ++;
+  };
+  $scope.lessSp = function(char) {
+    char.sp --;
+  };
 
   $scope.remove = function(item) { 
     var index=$scope.charList.indexOf(item);
@@ -64,6 +73,7 @@ app.controller('myCtrl', function($scope) {
         "playerName" : item.playerName,
         "initiative" : item.initiative,
         "hp" : item.hp,
+        "sp" : item.sp,
         "notes" : ""
       };
     
