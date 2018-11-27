@@ -42,16 +42,16 @@
       <input class="box-char" type="text" ng-model="char.charName" placeholder="Character">
       <input class="box-player" type="text" ng-model="char.playerName" placeholder="Player">
     </div>
-    <span>HP</span>
+    
     <div class="hp">
-      
+      <label>HP</label>
       <button tabindex="-1" class="less" ng-click="lessHp(char)">-</button>
       <input type="number" ng-model="char.hp" placeholder="HP">
       <button tabindex="-1" class="more" ng-click="moreHp(char)">+</button>
     </div>
-    <span>SP</span>
+   
     <div class="sp">
-      
+       <label>SP</label>
       <button tabindex="-1" class="less" ng-click="lessSp(char)">-</button>
       <input type="number" ng-model="char.sp" placeholder="SP">
       <button tabindex="-1" class="more" ng-click="moreSp(char)">+</button>
