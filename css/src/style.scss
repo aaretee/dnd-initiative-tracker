@@ -224,6 +224,24 @@ ul.character-items {
           border-color: $black;
         }
         
+        .sp {
+      margin-top: 25px;
+      input {
+        font-size: 24px;
+        width: 60px;
+        height: 40px;
+        float: left;
+        border-radius: 0;
+        text-align: center;
+        padding: 4px 0;
+        
+        background: #fff;
+        border: 1px solid $grey3;
+        
+        &:focus {
+          border-color: $black;
+        }
+        
         
         // remove number controls
         &::-webkit-inner-spin-button, 
