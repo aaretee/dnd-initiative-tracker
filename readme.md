@@ -2,6 +2,8 @@
 
 ## What is this for?
 
+Tracking initiative for Starfinder RPG. Original version and all credit goes to user:[stormreaver](https://stormreaever.github.io/dnd-initiative-tracker/docs.html)
+
 Tracking initiative and HP for characters during the game. 
 
 For more info, open [docs.html](https://stormreaever.github.io/dnd-initiative-tracker/docs.html)
