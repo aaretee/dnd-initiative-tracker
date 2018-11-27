@@ -134,9 +134,9 @@ ul.character-items {
       padding-top: 20px; }
       ul.character-items li .name-boxes input {
         margin-right: 10px; }
-    ul.character-items li .hp, ul.character-items li .sp {
+    ul.character-items li .hp {
       margin-top: 25px; }
-      ul.character-items li .hp input, ul.character-items li .sp input {
+      ul.character-items li .hp input {
         font-size: 24px;
         width: 60px;
         height: 40px;
@@ -146,22 +146,52 @@ ul.character-items {
         padding: 4px 0;
         background: #fff;
         border: 1px solid #d9dadc; }
-        ul.character-items li .hp input:focus, ul.character-items li .sp input:focus {
+        ul.character-items li .hp input:focus {
           border-color: #333339; }
-        ul.character-items li .hp input::-webkit-inner-spin-button, ul.character-items li .hp input::-webkit-outer-spin-button, ul.character-items li .sp input::-webkit-inner-spin-button, ul.character-items li .sp input::-webkit-outer-spin-button {
+        ul.character-items li .hp input::-webkit-inner-spin-button, ul.character-items li .hp input::-webkit-outer-spin-button {
           -webkit-appearance: none;
           margin: 0; }
-      ul.character-items li .hp button, ul.character-items li .sp button {
+      ul.character-items li .hp button {
         float: left;
         height: 40px;
         padding: 6px 18px;
         color: #333339;
         background: #f2f3f3;
         border: 1px solid #d9dadc; }
-        ul.character-items li .hp button.less, ul.character-items li .sp button.less {
+        ul.character-items li .hp button.less {
           border-radius: 6px 0 0 6px;
           border-right-width: 0; }
-        ul.character-items li .hp button.more, ul.character-items li .sp button.more {
+        ul.character-items li .hp button.more {
+          border-radius: 0 6px 6px 0;
+          border-left-width: 0; }
+    ul.character-items li .sp {
+      margin-top: 25px; }
+      ul.character-items li .sp input {
+        font-size: 24px;
+        width: 60px;
+        height: 40px;
+        float: left;
+        border-radius: 0;
+        text-align: center;
+        padding: 4px 0;
+        background: #fff;
+        border: 1px solid #d9dadc; }
+        ul.character-items li .sp input:focus {
+          border-color: #333339; }
+        ul.character-items li .sp input::-webkit-inner-spin-button, ul.character-items li .sp input::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0; }
+      ul.character-items li .sp button {
+        float: left;
+        height: 40px;
+        padding: 6px 18px;
+        color: #333339;
+        background: #f2f3f3;
+        border: 1px solid #d9dadc; }
+        ul.character-items li .sp button.less {
+          border-radius: 6px 0 0 6px;
+          border-right-width: 0; }
+        ul.character-items li .sp button.more {
           border-radius: 0 6px 6px 0;
           border-left-width: 0; }
     ul.character-items li .notes input {
