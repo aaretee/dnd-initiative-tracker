@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stormreaever/dnd-initiative-tracker.git"
+    "url": "git+https://github.com/aaretee/dnd-initiative-tracker.git"
   },
   "author": "Kat EV",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stormreaever/dnd-initiative-tracker/issues"
+    "url": "https://github.com/aaretee/dnd-initiative-tracker/issues"
   },
-  "homepage": "https://github.com/stormreaever/dnd-initiative-tracker#readme",
+  "homepage": "https://github.com/aaretee/dnd-initiative-tracker#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
