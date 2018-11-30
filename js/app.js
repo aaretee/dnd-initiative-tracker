@@ -14,6 +14,8 @@ app.controller('myCtrl', function($scope) {
       "initiative" : "",
       "hp" : "",
       "sp" : "",
+      "charEAC" : "",
+      "charKAC" : "", 
       "notes" : ""
     }
   ];
@@ -27,6 +29,8 @@ app.controller('myCtrl', function($scope) {
         "initiative" : "",
         "hp" : "",
         "sp" : "",
+        "charEAC" : "",
+        "charKAC" : "",
         "notes": ""
       }
     );
@@ -74,6 +78,8 @@ app.controller('myCtrl', function($scope) {
         "initiative" : item.initiative,
         "hp" : item.hp,
         "sp" : item.sp,
+        "charEAC" : item.charEAC,
+        "charKAC" : item.charKAC,
         "notes" : ""
       };
     
